@@ -1,2 +1,2 @@
-# wearable
-Task classification using wearable accelerometers.
+# taskcode
+Task classification using wearable accelerometers and precise gps data.
