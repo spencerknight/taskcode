@@ -24,10 +24,6 @@ def gps_transform(func):
 gps_transform.funcs = {}
 
 
-def hashed(d):
-    return tuple(sorted((a,tuple(b)) if is_listy(b) else (a,b) for a,b in d.iteritems()))
-
-
 def cached(func):
     '''
     Decorator to optionally cache a DataFrame to file .
